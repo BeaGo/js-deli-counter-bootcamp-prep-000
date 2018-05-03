@@ -22,7 +22,7 @@ function currentLine(katzDeliLine) {
     } else if (lineLength > 1) {
       const arr = []
       for ( let i = 0; i < lineLength; i++) {
-    arr.push()
+    arr.push(``)
     return 'The line is currently: ' + arr
   } 
   } else {
