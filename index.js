@@ -23,9 +23,9 @@ function currentLine(katzDeliLine) {
       const arr = []
       for ( let i = 0; i < lineLength; i++) {
     arr.push(`${katzDeliLine.indexOf[i]}. ${katzDeliLine[i]}`);
-    return 'The line is currently: ' + arr.join(', ')
+    return arr
   } 
-  }else {
+  } else {
     return "The line is currently empty."
   }
 }
