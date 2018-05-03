@@ -20,8 +20,9 @@ function currentLine(katzDeliLine) {
   if (lineLength === 1) {
       return 'The line is currently: 1. '+ katzDeliLine[i] + '.'
     } else if (lineLength > 1) {
+      const arr = []
       for ( let i = 0; i < lineLength; i++) {
-    arr.push(names)
+    arr.push()
     return 'The line is currently: ' + arr
   } 
   } else {
