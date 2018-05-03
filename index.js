@@ -20,11 +20,7 @@ function currentLine(katzDeliLine) {
   if (lineLength === 1) {
       return 'The line is currently: 1. '+ katzDeliLine[i] + '.'
     } else if (lineLength > 1) {
-      for ( var i = 0; i < lineLength; i++) {
-    let n = katzDeliLine.indexOf(katzDeliLine[i+1])
-    let arr = []
-    let names = n + '. ' + katzDeliLine[i]
-    let lastName = n
+      for ( let i = 0; i < lineLength; i++) {
     arr.push(names)
     return 'The line is currently: ' + arr
   } 
